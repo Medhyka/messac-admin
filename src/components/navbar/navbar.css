@@ -1,0 +1,51 @@
+.dokmed__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.dokmed__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 0rem;
+    border-bottom: 0rem;
+}
+
+
+.dokmed__navbar-logo img {
+    display: flex;
+    width: 242px;
+    cursor: pointer;
+}
+
+.dokmed__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 0rem;
+    border-bottom: 0rem;
+}
+
+
+.dokmed__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: end;
+
+}
+
+.dokmed__navbar-links_container p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2rem;
+    text-align: right;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.feature {
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+.feature__name {
+    margin-left: 6rem;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.feature__cards {
+    display: flex;
+    flex-direction: row;
+}

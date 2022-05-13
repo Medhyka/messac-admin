@@ -1,0 +1,10 @@
+.card {
+    margin-left: 6rem;
+    margin-top: 4rem;
+  
+}
+
+.card p {
+    font-size: 40px;
+    justify-content: left;
+ }
