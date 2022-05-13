@@ -1,7 +1,8 @@
-import { Box } from '@mui/material';
+import { Box, IconButton } from '@mui/material';
 import './card.css';
 
 const Card = () => {
+
     return (
     <div className='card'>
         <Box 
@@ -14,7 +15,7 @@ const Card = () => {
             borderRadius='10px'
             padding='10px'>
                 <h2>SVIP</h2>
-                
+
             <Box
                 marginLeft='100px'
                 display='flex'
@@ -30,7 +31,11 @@ const Card = () => {
                 alignItems='center'
                 color='white'>
                     Tersedia
-                    <p>20</p></Box>
+                    <p>
+                    <IconButton color='inherit'>-</IconButton>
+                        20
+                    <IconButton color='inherit'>+</IconButton>
+                    </p></Box>
             <Box
                 marginLeft='10px'
                 display='flex'
@@ -44,8 +49,14 @@ const Card = () => {
                 padding='10px'
                 justifyContent='center'
                 alignItems='center'>
+                   
                     Jumlah Bed
-                    <p>20</p></Box>
+                    <p>
+                    <IconButton>-</IconButton>
+                        20
+                    <IconButton>+</IconButton>
+                    </p>
+                    </Box>
             </Box>
      </div>
     );
