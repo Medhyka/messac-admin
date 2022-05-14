@@ -9,7 +9,6 @@ const Feature = () => {
         </div>
         <div className='feature__cards'>
             <Card />
-            <Card />
         </div>
     </div>
     );
